@@ -2,12 +2,10 @@
   margin: 0px;
   padding: 0px;
   /* border: 2px solid red; */
-  font-family: "Inter", sans-serif;
-  font-family: "Poppins", sans-serif;
 }
 html {
   background-color: rgba(17, 17, 17, 1);
-  padding-top: 20px;
+  padding-top: 30px;
 }
 header {
   max-width: 1000px;
@@ -33,6 +31,9 @@ nav {
   vertical-align: middle;
   color: white;
   text-decoration: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
 }
 .nav-right {
   width: 20%;
@@ -42,29 +43,49 @@ nav {
   padding-left: 20px;
   width: 15%;
 }
-
+.hero-left {
+  position: relative;
+  width: 70%;
+}
 .hero {
   display: flex;
 }
 .hero-right {
   display: flex;
   background-color: rgba(34, 34, 34, 1);
+  width: 100%;
+  max-width: 800px;
+  justify-content: space-between;
+  gap: 20px;
 }
+.hero-right-left-img {
+  width: 100%;
+}
+.hero-right-left-img img {
+  width: 100%;
+}
+.hero-right-bottom-img {
+  width: 80%;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
 .text1 {
-  font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 60px;
+  font-size: 72px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .text2 {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
-  width: 100%;
+  width: 80%;
 }
 
 .hero-middle {
-  width: 20%;
   height: 500px;
   display: flex;
   align-items: center;
@@ -74,5 +95,29 @@ nav {
 
 .hero-middle img {
   position: absolute;
-  left: 20px;
+  right: -50px;
+}
+.shape {
+  width: 9%;
+}
+.scroll {
+  width: 80%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.scroll img {
+  width: 4%;
+}
+.peanut {
+  position: absolute;
+  left: 60%;
+}
+.peanut img {
+  width: 70%;
+}
+.partners {
+  margin-top: 95px;
 }
