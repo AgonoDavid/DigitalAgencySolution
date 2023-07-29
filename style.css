@@ -6,6 +6,7 @@
 html {
   background-color: rgba(17, 17, 17, 1);
   padding-top: 30px;
+  height: 100%;
 }
 header {
   max-width: 1000px;
@@ -119,5 +120,25 @@ nav {
   width: 70%;
 }
 .partners {
-  margin-top: 95px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  width: 100%;
+  text-align: center;
+}
+.partners img {
+  margin: auto;
+  max-width: 850px;
+  width: 100%;
+}
+/* MAIN SECTION */
+main {
+  background-color: rgba(24, 24, 24, 1);
+}
+.main {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/line.png);
+  max-width: 800px;
+  margin: auto;
 }
