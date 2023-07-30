@@ -142,3 +142,13 @@ main {
   max-width: 800px;
   margin: auto;
 }
+.main-one {
+  max-width: 900px;
+  margin: auto;
+}
+.main-one-ct1 p {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  right: 110px;
+}
