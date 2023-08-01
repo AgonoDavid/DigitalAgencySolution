@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 html {
   background-color: rgba(17, 17, 17, 1);
@@ -139,16 +139,11 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(/images/line.png);
-  max-width: 800px;
-  margin: auto;
+  /* max-width: 1400px;
+  margin: auto; */
 }
-.main-one {
-  max-width: 900px;
-  margin: auto;
-}
-.main-one-ct1 p {
-  color: white;
-  font-size: 18px;
-  position: relative;
-  right: 110px;
+.first-sec {
+  display: flex;
+  max-width: 1000px;
+  margin: auto6;
 }
