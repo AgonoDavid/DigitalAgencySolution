@@ -308,7 +308,6 @@ main {
 }
 /*THIRD-SEC*/
 .third-sec {
-  height: 170vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(/images/line.png);
@@ -410,6 +409,9 @@ main {
 .fifth-sec-img {
   width: 55%;
 }
+.fifth-sec-img img {
+  float: right;
+}
 .fifth-sec-text1 {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -417,4 +419,46 @@ main {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   width: 85%;
+}
+/*SIXTH SEC*/
+.sixth-sec {
+  max-width: 1000px;
+  margin: auto;
+}
+.sixth-sec-main {
+  display: flex;
+  width: 100%;
+  padding-top: 60px;
+  justify-content: space-between;
+  gap: 30px;
+}
+.sixth-sec-sub {
+  width: 100%;
+}
+.sixth-sec-sub img {
+  width: 100%;
+}
+.sixth-sec-text {
+  padding-top: 5px;
+}
+.sixth-sec-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.sixth-sec-text p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+.slide {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.slide img {
+  width: 5%;
+}
+.shape {
+  padding-left: 10%;
 }
