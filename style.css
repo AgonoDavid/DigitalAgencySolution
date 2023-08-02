@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* border: 2px solid red; */
   color: white;
 }
 html {
@@ -10,6 +9,10 @@ html {
   height: 100%;
 }
 header {
+  background-color: rgba(17, 17, 17, 1);
+}
+.main-hero {
+  background-color: rgba(17, 17, 17, 1);
   max-width: 1000px;
   margin: auto;
 }
@@ -43,7 +46,7 @@ nav {
 }
 .nav-right img {
   padding-left: 20px;
-  width: 15%;
+  width: 25%;
 }
 .hero-left {
   position: relative;
@@ -120,7 +123,7 @@ nav {
 }
 .partners {
   margin-top: 55px;
-  margin-bottom: 55px;
+  padding-bottom: 55px;
   width: 100%;
   text-align: center;
 }
@@ -301,4 +304,101 @@ main {
 .second-sec-main-3 ul {
   padding-left: 15px;
   line-height: 30px;
+}
+/*THIRD-SEC*/
+.third-sec {
+  height: 170vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/line.png);
+}
+
+.third-sec-main {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  padding-top: 90px;
+}
+.third-sec-main-1-sub {
+  display: flex;
+}
+.third-sec-main-1-sub1 {
+  width: 100%;
+}
+.third-sec-main-1-sub2 {
+  width: 70%;
+}
+.third-sec-main-1-sub1-text1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-bottom: 15px;
+}
+.third-sec-main-1-sub1-text2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.third-sec-main-1-sub2 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+}
+.third-sec-main-1-sub2 img {
+  width: 55%;
+  padding-top: 10%;
+}
+
+/*Fourtth sec*/
+
+.fourth-sec {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/images/line.png);
+}
+.fourth-sec-main-sub {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 80px;
+  line-height: 47px;
+}
+.line {
+  width: 100%;
+}
+.fourth-sec-main-sub1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.fourth-sec-main-sub1 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+}
+.web {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 38px;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow img {
+  width: 100%;
+}
+.image-3 {
+  position: relative;
+  width: 100%;
+}
+
+.image-3 img {
+  position: absolute;
+  bottom: 90px;
+  right: 200px;
+  width: 20%;
+}
+
+/*FIFTH SEC*/
+.fifth-sec {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 40px;
 }
