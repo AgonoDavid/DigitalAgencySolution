@@ -546,4 +546,33 @@ main {
 }
 .tenth-sec-main {
   display: flex;
+  justify-content: space-between;
+}
+.tenth-sec-main-sub1 {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.tenth-sec-main-sub2 {
+  width: 20%;
+  z-index: 1;
+  position: relative;
+}
+
+.tenth-sec-main-sub1 h3 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.date-text {
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.date-num {
+  color: rgba(227, 178, 125, 1);
+}
+.tenth-sec-main-sub2 img {
+  position: absolute;
+  right: -20px;
+  height: 100%;
+
+  /* width: 50%; */
 }
