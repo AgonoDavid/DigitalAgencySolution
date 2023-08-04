@@ -191,13 +191,7 @@ main {
   bottom: -40px;
   left: -50px;
 }
-.main-one-sub3-img2 {
-  position: absolute;
-  left: 60%;
-  bottom: -100px;
-  width: 100%;
-  z-index: 1;
-}
+
 .main-one-sub3-img2 img {
   width: 63%;
 }
@@ -291,7 +285,7 @@ main {
 .illustration {
   font-family: "Londrina Outline", cursive;
   font-size: 45px;
-  z-index: 100;
+  /* z-index: 100; */
   right: 85px;
   position: absolute;
 }
@@ -358,7 +352,33 @@ main {
   width: 45%;
   padding-top: 10%;
 }
+.bottom-counter {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.bottom-counter-1 {
+  width: 100%;
+  text-align: center;
+}
 
+.bottom-counter-1 p {
+  text-align: left;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+}
+.main-one-sub3-img2 {
+  position: absolute;
+  left: 60%;
+  bottom: -90px;
+  width: 50%;
+  z-index: 1;
+  background-color: rgba(51, 51, 51, 1);
+  padding: 50px 30px;
+}
+.count-flex h3 {
+  font-size: 40px;
+}
 /*Fourtth sec*/
 
 .fourth-sec {
