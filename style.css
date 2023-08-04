@@ -81,6 +81,7 @@ nav {
 .counter {
   padding-bottom: 20px;
 }
+
 .counter p {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 15px;
@@ -377,7 +378,7 @@ main {
   padding: 50px 30px;
 }
 .count-flex h3 {
-  font-size: 40px;
+  font-size: 30px;
 }
 /*Fourtth sec*/
 
