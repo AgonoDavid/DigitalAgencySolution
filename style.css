@@ -49,6 +49,9 @@ nav {
   padding-left: 20px;
   width: 25%;
 }
+.menu {
+  display: hidden;
+}
 .hero-left {
   position: relative;
   width: 70%;
