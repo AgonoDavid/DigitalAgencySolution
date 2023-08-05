@@ -1,5 +1,5 @@
 const counts = document.querySelectorAll(".count");
-const speed = 130;
+const speed = 180;
 counts.forEach((counter) => {
   function upData() {
     const target = Number(counter.getAttribute("data-target"));
