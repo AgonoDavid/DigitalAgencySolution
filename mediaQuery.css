@@ -52,17 +52,42 @@
     padding: 50px 23px;
   }
   .first-sec-main-two-1 {
-    padding-top: 140px;
+    padding-top: 30px;
   }
   .main-one-sub3-img2 {
     display: none;
   }
   .second-sec {
-    margin-top: 120px;
-    padding: 15px 23px;
+    /* margin-top: 120px; */
+    /* height: 100%; */
+    padding: 15px 20px;
   }
   .second-sec-main {
     flex-direction: column;
     text-align: center;
+  }
+  .third-sec-main-1-sub {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 20px;
+  }
+  .shape2 {
+    display: none;
+  }
+  .third-sec-main-1-sub2 {
+    text-align: center;
+    width: 100%;
+  }
+  .fourth-sec-main-sub {
+    padding: 15px 23px;
+  }
+  .web {
+    font-size: 16px;
+  }
+  .arrow img {
+    width: 60%;
+  }
+  .image-3 {
+    display: none;
   }
 }
