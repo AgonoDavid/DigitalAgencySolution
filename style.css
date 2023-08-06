@@ -156,7 +156,7 @@ main {
   background-color: rgba(24, 24, 24, 1);
 }
 .main {
-  height: 139vh;
+  /* height: 139vh; */
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(/images/line.png);
@@ -168,6 +168,7 @@ main {
   max-width: 1000px;
   margin: auto;
   padding-top: 100px;
+  padding-bottom: 250px;
 }
 .first-sec-main-one {
   width: 100%;
