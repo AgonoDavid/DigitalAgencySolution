@@ -1,4 +1,7 @@
 @media (max-width: 575.98px) {
+  * {
+    border: none;
+  }
   .hero-middle {
     display: none;
   }
